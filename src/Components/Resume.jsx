@@ -179,11 +179,20 @@ function Resume() {
                             <ul className="list-unstyled mb-0 lh-lg">
                                 <div className="d-flex justify-content-between">
                                     <li>• MERN Stack Professional Course</li>
-                                        <Link to="/Mern_Stack_Certificate.pdf" target='_blank' className="pe-5" style={{ textDecoration: "none",color:"blue" }}>Check</Link>
+                                    <Link to="/Mern_Stack_Certificate.pdf" target='_blank' className="pe-5" style={{ textDecoration: "none", color: "blue" }}>Check</Link>
                                 </div>
-                                <li>• ChatGPT for Coders</li>
-                                <li>• SQL for Data Science</li>
-                                <li>• Front-End Development</li>
+                                <div className="d-flex justify-content-between">
+                                    <li>• ChatGPT for Coders</li>
+                                    <Link to="/ChatGPT_Certificate.pdf" target='_blank' className="pe-5" style={{ textDecoration: "none", color: "blue" }}>Check</Link>
+                                </div>
+                                <div className="d-flex justify-content-between">
+                                    <li>• SQL for Data Science</li>
+                                    <Link to="/SQL_Certificate.pdf" target='_blank' className="pe-5" style={{ textDecoration: "none", color: "blue" }}>Check</Link>
+                                </div>
+                                <div className="d-flex justify-content-between">
+                                    <li>• Front-End Development</li>
+                                    <Link to="/Front_end_certificate.pdf" target='_blank' className="pe-5" style={{ textDecoration: "none", color: "blue" }}>Check</Link>
+                                </div>
                             </ul>
                         </div>
                     </div>
